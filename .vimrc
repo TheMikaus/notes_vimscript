@@ -1,3 +1,5 @@
+" --------------------------------------------------------------------------------
+" My personal defaults.  Just ditch them if you are uninterested
 set ai
 syntax on
 set shiftwidth=2
@@ -138,24 +140,3 @@ function! MoveLineUp()
 
 endfunction
 nnoremap <C-Up> :call MoveLineUp()<CR>
-
-
-" --------------------------------------------------------------------------------
-
-
-
-
-" FOR PLUGIN LOADING
-"call plug#begin('~/.vim/plugged')
-
-" post install (yarn install | npm install) then load plugin only for editing supported files
-"Plug 'prettier/vim-prettier', {
-"  \ 'do': 'yarn install',
-"  \ 'for': ['javascript', 'js', 'typescript', 'css', 'less', 'scss', 'graphql', 'markdown', 'vue'] }
-
-"call plug#end()
-
-
-" Prettier Configuration for JS
-"let g:prettier#autoformat = 0
-"autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.graphql,*.md,*.vue PrettierAsync

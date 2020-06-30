@@ -1,0 +1,4 @@
+2020-06-29 @ 10:56PM
+- Task - Fix Move up command to grab the correct indents
+- Task - Fix Move down command to grab the correct indents
+- Task - Add Command to insert new task line
