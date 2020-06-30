@@ -13,8 +13,8 @@ set guifont=Consolas:h11
 " TODO Related
 
 " Insert Time stamp
-nnoremap <F5> :3<CR>I<CR><CR><esc>:3<CR><esc>"=strftime("%Y-%m-%d")<CR>PA @ IN->OUT<CR>- 
-inoremap <F5> <esc>:3<CR>I<CR><CR><esc>:3<CR><esc>"=strftime("%Y-%m-%d")<CR>PA @ IN->OUT<CR>-
+nnoremap <F5> :1<CR>I<CR><CR><esc>:1<CR><esc>"=strftime("%Y-%m-%d")<CR>PA @ IN->OUT<CR>- 
+inoremap <F5> <esc>:1<CR>I<CR><CR><esc>:1<CR><esc>"=strftime("%Y-%m-%d")<CR>PA @ IN->OUT<CR>-
 
 " Toggle Lines from done to not done
 function! NotesToggleTodo()
