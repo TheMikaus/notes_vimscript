@@ -10,6 +10,6 @@ If /I "%AreYouSure%" NEQ "Y" goto END
 
 :COPY
 copy .vimrc %UserProfile%
-xcopy /s /y vimfiles %UserProfiler%
+xcopy /s /y vimfiles "%UserProfile%/vimfiles"
 
 :END
