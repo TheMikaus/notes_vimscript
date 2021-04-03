@@ -5,6 +5,7 @@ Running the install.bat script after cloning will copy the .vimrc and the necess
 
 # Commands
 - F5 - Insert new TODO/Notes Date header
+- F6 - Create a new TODO/Notes Date header and move all of the unfinished tasks from the previous TODO/NOTES heading to this one.
 - F2 - Toggle from needs to be done to done or back
 - Ctrl-Up - Move the current TODO up
 - Ctrl-Down - Move the current TODO down
